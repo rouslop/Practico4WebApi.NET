@@ -11,7 +11,7 @@ namespace DataAccessLayer.Implementations
 {
     public class DAL_Personas_SQL : IDAL_Personas
     {
-        private string sqlConnection = "Server=localhost,14330;Database=Practico3;User Id=sa;Password=Tisj*2022;";
+        private string sqlConnection = "Server=localhost,1433;Database=Practico3;User Id=sa;Password=12345678;";
 
         public Persona AddPersona(Persona x)
         {
